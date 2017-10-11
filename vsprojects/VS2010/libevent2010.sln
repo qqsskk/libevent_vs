@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libevent", "libevent.vcxproj", "{8AF21299-D258-4B2D-95FD-191E7E8B1A89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libevent_core", "libevent-core.vcxproj", "{87B1FC78-29AA-43FA-A429-1E6DEAFAAB57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libevent_extras", "libevent-extra.vcxproj", "{45C52FDA-97FF-40FB-816F-CD8A038BE9D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8AF21299-D258-4B2D-95FD-191E7E8B1A89}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8AF21299-D258-4B2D-95FD-191E7E8B1A89}.Debug|Win32.Build.0 = Debug|Win32
+		{8AF21299-D258-4B2D-95FD-191E7E8B1A89}.Release|Win32.ActiveCfg = Release|Win32
+		{8AF21299-D258-4B2D-95FD-191E7E8B1A89}.Release|Win32.Build.0 = Release|Win32
+		{87B1FC78-29AA-43FA-A429-1E6DEAFAAB57}.Debug|Win32.ActiveCfg = Debug|Win32
+		{87B1FC78-29AA-43FA-A429-1E6DEAFAAB57}.Debug|Win32.Build.0 = Debug|Win32
+		{87B1FC78-29AA-43FA-A429-1E6DEAFAAB57}.Release|Win32.ActiveCfg = Release|Win32
+		{87B1FC78-29AA-43FA-A429-1E6DEAFAAB57}.Release|Win32.Build.0 = Release|Win32
+		{45C52FDA-97FF-40FB-816F-CD8A038BE9D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{45C52FDA-97FF-40FB-816F-CD8A038BE9D6}.Debug|Win32.Build.0 = Debug|Win32
+		{45C52FDA-97FF-40FB-816F-CD8A038BE9D6}.Release|Win32.ActiveCfg = Release|Win32
+		{45C52FDA-97FF-40FB-816F-CD8A038BE9D6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
