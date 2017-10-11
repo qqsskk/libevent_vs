@@ -49,7 +49,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>D:\000server\app\libevent\compat;D:\000server\app\libevent\include;D:\000server\app\libevent\WIN32-Code;$(IncludePath)</IncludePath>
-    <OutDir>..\..\Lib</OutDir>
+    <OutDir>..\..\Output\$(SolutionName)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

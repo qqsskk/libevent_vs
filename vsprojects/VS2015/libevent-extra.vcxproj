@@ -22,6 +22,7 @@
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>libeventextra</RootNamespace>
     <ProjectName>libevent_extras</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -51,10 +52,11 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>D:\000server\app\libevent\compat;D:\000server\app\libevent\include;D:\000server\app\libevent\WIN32-Code;$(IncludePath)</IncludePath>
-    <OutDir>..\..\Lib</OutDir>
+    <OutDir>..\..\Output\$(SolutionName)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\Output\$(SolutionName)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
