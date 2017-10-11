@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# vs
+*.suo
+*.user
+*.opensdf
+*.sdf
